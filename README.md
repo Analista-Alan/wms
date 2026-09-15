@@ -2,7 +2,7 @@
 
 Sistema web em PHP para endereçamento de estoque (ruas/posições) com geração e
 leitura de QR Code, construído sobre o banco de dados **Geagro** (Firebird)
-que você enviou.
+que você enviou. 
 
 ⚠️ **Antes de tudo**: o arquivo `BancoDados1508.sql` que você me enviou tem, em
 texto puro, a senha do usuário `SYSDBA` do Firebird. Troque essa senha antes
@@ -205,5 +205,6 @@ menciona a estrutura do seu ERP), só quem você convidar consegue ver.
   + bipar de novo para confirmar), suporte a múltiplos usuários simultâneos
   com filas de tarefas, dashboard de ocupação por armazém, exportar mapa de
   ruas em PDF.
-#   w m s  
+#   w m s 
+ 
  
