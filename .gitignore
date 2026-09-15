@@ -1,0 +1,18 @@
+# Nunca versionar o config.php - ele tem a senha do Firebird.
+# Um template sem dados sensíveis fica em config/config.example.php
+config/config.php
+
+# Ferramenta de diagnóstico - não deve ir para produção/repositório público
+public/diagnostico.php
+diagnostico.php
+
+# Arquivos de sistema operacional / editor
+.DS_Store
+Thumbs.db
+*.log
+/.vs/
+/.idea/
+
+# Dependências, caso um dia adicionem algo via composer/npm
+/vendor/
+/node_modules/

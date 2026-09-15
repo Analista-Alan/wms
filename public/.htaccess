@@ -1,0 +1,6 @@
+# Impede acesso direto a arquivos de configuração/includes caso, por engano,
+# fiquem dentro da pasta pública. O ideal é que config/ e includes/ fiquem
+# FORA do DocumentRoot do Apache (veja README.md).
+<FilesMatch "\.(sql|log|env)$">
+  Require all denied
+</FilesMatch>
